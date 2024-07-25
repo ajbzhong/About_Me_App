@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            HStack (spacing: 25.0){
+            HStack (spacing: 5.0){
                 // picture of myself
                 Image("mirror selfie")
                     .resizable()
@@ -23,7 +23,7 @@ struct ContentView: View {
                     Text("#07 liner")
                     Text("#isfp-t")
                     Text("#pisces")
-                    Text("#eng/chin ok")
+                    Text("#younger sister")
                 }
                 .padding()
                 .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 1.5)
